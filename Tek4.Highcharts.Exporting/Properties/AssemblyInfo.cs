@@ -46,9 +46,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright (C) 2012 Tek4(TM) - Kevin P. Rice.")]
 [assembly: AssemblyTrademark("Tek4")]
 
-[assembly: AssemblyVersion("1.0.2.0")]
-[assembly: AssemblyFileVersion("2012.3.4.0242")]
-[assembly: AssemblyInformationalVersion("1.0.2.0")]
+[assembly: AssemblyVersion("1.0.3.0")]
+[assembly: AssemblyFileVersion("2014.12.5.0242")]
+[assembly: AssemblyInformationalVersion("1.0.3.0")]
 
 [assembly: AssemblyCulture("")]
 

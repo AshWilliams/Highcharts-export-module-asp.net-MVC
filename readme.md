@@ -1,8 +1,9 @@
 ## Tek4.Highcharts.Exporting assembly
 
 Tek4 ASP.NET Exporting Module for Highcharts JS (http://highcharts.com/).
-Version 1.0.2.0 (March 3, 2012)
+Version 1.0.3.0 (December 5, 2014)
 
+* Updated for Asp.NET MVC usage and custom font override 
 * Based upon ASP.NET Highcharts export module by Clément Agarini (June 15, 2011).
 * Re-written by Kevin P. Rice (http://tek4.com/).
 * Utilizes customized Svg.dll provided by OlgaD (https://github.com/imclem/Highcharts-export-module-asp.net/issues/1).
@@ -27,13 +28,13 @@ Version 1.0.2.0 (March 3, 2012)
 * Can be called as either an ASP.NET page (HighchartsExport.aspx) or as an HttpHandler (HighchartsExport.axd).
 * Supports Highcharts exporting 'width' option to generate high quality images of any size (PDF images are exported at 150 dpi).
 * Supports Highcharts exporting 'filename' option to specify downloaded file name.
-* Works with .NET 3.5 Framework and later.
-* Visual Studio 2010 solution/project files included (targeted to .NET 3.5).
+* Works with .NET 4.0 Framework and later.
+* Visual Studio 2013 solution/project files included (targeted to .NET 4.0).
 
 
 ## Project Home
 
-* https://github.com/imclem/Highcharts-export-module-asp.net
+* https://github.com/vlko/Highcharts-export-module-asp.net
 
 
 ## License
