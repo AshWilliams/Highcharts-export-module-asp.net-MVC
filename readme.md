@@ -1,4 +1,4 @@
-## Tek4.Highcharts.Exporting assembly
+## Tek4.Highcharts.Exporting assembly for Asp.NET MVC
 
 Tek4 ASP.NET Exporting Module for Highcharts JS (http://highcharts.com/).
 Version 1.0.3.0 (December 5, 2014)
@@ -13,19 +13,17 @@ Version 1.0.3.0 (December 5, 2014)
 
 ### Demo web site ###
 * Visual Studio: Open the solution (.sln) and run the demo website.
-* IIS: Create a web application and copy the files in the demo website directory (choosing correct web.config).
+* Asp.net MVC demo application.
 
 ### Your web site ###
 * Copy the three .dll files from the demo website /bin directory to your website /bin directory (Tek4.Highcharts.Exporting.dll, itextsharp.dll, Svg.dll).
-* Review the demo website 'Default.aspx' and 'web.config' files for configuration and usage details.
-* Configuration in 'web.config' is for .NET 3.5 and 'web-dotNET4.0.config' is for .NET 4.0 and later.
+* Review the demo website and imlement custom Graph controller with Export action.
 
 
 ## Features
 
 * Exports Highcharts JS charts to PNG/JPG/PDF/SVG.
 * Uses three precompiled .DLL files in /bin directory and configuration via web.config.
-* Can be called as either an ASP.NET page (HighchartsExport.aspx) or as an HttpHandler (HighchartsExport.axd).
 * Supports Highcharts exporting 'width' option to generate high quality images of any size (PDF images are exported at 150 dpi).
 * Supports Highcharts exporting 'filename' option to specify downloaded file name.
 * Works with .NET 4.0 Framework and later.
@@ -34,7 +32,7 @@ Version 1.0.3.0 (December 5, 2014)
 
 ## Project Home
 
-* https://github.com/vlko/Highcharts-export-module-asp.net
+* https://github.com/vlko/Highcharts-export-module-asp.net-MVC
 
 
 ## License
